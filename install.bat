@@ -1,11 +1,16 @@
 @echo off
 echo Idiom es en it fr pt ab
-set /p v="idiom: "
+echo 6 es
+echo 1 en
+echo 7 fr
+echo 10 it
+echo 2 pt
+echo 16 ab
 
-if 
+set /p i="idiom: "
 
 set /A n = 3
 :e
-wget.exe http://audio1.wordfree.net/bibles/app/audio/6_%n%.zip
+wget.exe http://audio1.wordfree.net/bibles/app/audio/%i%_%n%.zip
 set /A n = %n%+1
 goto e

@@ -9,7 +9,7 @@ echo 16 ab
 
 read i
 
-n = 3
+n = 1
 :e
 wget http://audio1.wordfree.net/bibles/app/audio/$i_$n.zip
 $n = $n+1

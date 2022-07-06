@@ -9,7 +9,7 @@ echo 16 ab
 
 set /p i="idiom: "
 
-set /A n = 3
+set /A n = 1
 :e
 wget.exe http://audio1.wordfree.net/bibles/app/audio/%i%_%n%.zip
 set /A n = %n%+1
